@@ -15,8 +15,20 @@
     <title>Figma copycat</title>
   </head>
   <body>
-    <header class="header" id="header">
+    <div class="header-mobile">
+      <div class="header-mobile-tag">
+        <img class="the-P" src="img/P.png" />
+      </div>
       <h4>Product</h4>
+      <div class="header-mobile-bars">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <header class="header" id="header">
+      <div class="p-header">
+        <img class="the-P" src="img/P.png" />
+        <h4>Product</h4>
+      </div>
       <ul class="header-list">
         <li><a href="#">Product</a></li>
         <li><a href="#">Customers</a></li>
@@ -26,7 +38,7 @@
           <button class="sign-in" id="sign-in">Sign in</button>
         </li>
         <li>
-          <button class="sign-out active" id="sign-out">Sign out</button>
+          <button class="sign-out active" id="sign-out">Sign up</button>
         </li>
         <li>
           <a href="#"><i class="fa-regular fa-circle" id="dark"></i></a>
@@ -39,19 +51,16 @@
           <div class="p1">
             <h1>Work at the speed of thought</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-              culpa quisquam fugiat repudiandae corrupti explicabo eius, libero
-              delectus veniam. Aspernatur.
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
             </p>
             <div class="lnk">
-              <a href="#" class="get-started active">Get started</a>
-              <a href="#" class="watch">
-                <i class="fa-solid fa-play"></i> Watch the Video</a
-              >
+              <img src="img/button-getstarted.png" class="get-started active" />
+              <img src="img/button-watch.png" class="watch" />
             </div>
           </div>
           <div class="p2">
-            <img src="img/mysvg.svg" alt="group of people" class="svg" />
+            <img src="img/amico.png" alt="group of people" class="svg" />
           </div>
         </div>
         <div class="content-fotter">
@@ -99,25 +108,27 @@
               <strong>Management</strong>
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
-              saepe?
+              The Myspace page defines the individual, his or her
+              characteristics, traits, personal choices and the overall
+              personality of the person.
             </p>
             <p>
-              <strong>Accessory makers</strong><br />Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Odit, ducimus!
+              <strong>Accessory makers</strong><br />While most people enjoy
+              casino gambling, sports betting, lottery and bingo playing for the
+              fun
             </p>
             <p>
-              <strong>Alterationists</strong><br />Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Odit, ducimus!
+              <strong>Alterationists</strong><br />If you are looking for a new
+              way to promote your business that won’t cost you more money,
             </p>
           </div>
           <div class="cnt-book">
-            <img src="img/Book.svg" alt="books" />
+            <img src="img/amico2.png" alt="books" />
           </div>
         </div>
         <div class="secondary-content2">
           <div class="cnt-laptop">
-            <img src="img/laptop.svg" alt="books" />
+            <img src="img/amico3.png" alt="books" />
           </div>
           <div class="cnt-2">
             <p>
@@ -125,27 +136,22 @@
               <strong>Customer Support</strong>
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-              nobis.
+              The Myspace page defines the individual, his or her
+              characteristics, traits, personal choices and the overall
+              personality of the person.
             </p>
             <ul>
               <li>
-                <p>
-                  <i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit
-                  amet.
-                </p>
+                <img class="icon" src="img/icon-1.png" /> Never worry about
+                overpaying for your energy again.
               </li>
               <li>
-                <p>
-                  <i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit
-                  amet.
-                </p>
+                <img class="icon" src="img/icon-2.png" /> We will only switch
+                you to energy companies that we trust and will treat you right
               </li>
               <li>
-                <p>
-                  <i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit
-                  amet.
-                </p>
+                <img class="icon" src="img/icon-3.png" /> We track the markets
+                daily and know where the savings are.
               </li>
             </ul>
           </div>
@@ -157,20 +163,22 @@
               <strong>Colaborative</strong>
             </p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed,
-              necessitatibus!
+              Few would argue that, despite the advancements of feminism over
+              the past three decades, women still face a double standard when it
+              comes to their behavior.
             </p>
             <p>
-              <strong>Accessory makers</strong><br />Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Atque, totam!
+              <strong>Accessory makers</strong><br />
+              While most people enjoy casino gambling, sports betting, lottery
+              and bingo playing for the fun
             </p>
             <p>
-              <strong>Alterationists</strong><br />Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Sit, ea.
+              <strong>Alterationists</strong><br />If you are looking for a new
+              way to promote your business that wont cost you more money,
             </p>
           </div>
           <div class="cnt-tablet">
-            <img src="img/tablet.svg" alt="books" />
+            <img src="img/amico4.png" alt="books" />
           </div>
         </div>
       </div>
@@ -183,34 +191,26 @@
           </p>
           <div class="ppl">
             <div class="ppl-first-row">
-              <div class="person">
-                <img
-                  src="https://images.unsplash.com/photo-1654498106073-fd0954011c2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=60"
-                  alt="person"
-                />
+              <div class="ppl-person-p">
+                <div class="person">
+                  <img src="img/Avator.png" alt="person" />
+                </div>
+                <p>I can take care of your pitch</p>
               </div>
-              <p>I can take care of your pitch</p>
-              <p>I can prototype your app</p>
-              <div class="person">
-                <img
-                  src="https://images.unsplash.com/photo-1654432006851-e08869cb02a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDh8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=60"
-                  alt="person"
-                />
+              <div class="ppl-person-p">
+                <p>I can prototype your app</p>
+                <div class="person">
+                  <img src="img/Avator-1.png" alt="person" />
+                </div>
               </div>
             </div>
             <div class="ppl-second-row">
               <p>I can design your website</p>
               <div class="person">
-                <img
-                  src="https://images.unsplash.com/photo-1653991598123-9668a1614434?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI2fHRvd0paRnNrcEdnfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=60"
-                  alt="person"
-                />
+                <img src="img/Avator-2.png" alt="person" />
               </div>
               <div class="person">
-                <img
-                  src="https://images.unsplash.com/photo-1654125992221-8d1f49436357?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE2fHRvd0paRnNrcEdnfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=60"
-                  alt="person"
-                />
+                <img src="img/Avator-3.png" alt="person" />
               </div>
               <p>I can help marketing strategy</p>
             </div>
@@ -226,10 +226,7 @@
           <div class="boxes-container">
             <div class="box">
               <div class="img-cont">
-                <img
-                  src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=2000&q=60"
-                  alt="laptop"
-                />
+                <img src="img/image-bg-1.png" alt="laptop" />
               </div>
               <div class="text">
                 <p>By <strong>Narcis Gusa</strong> 12/06/2022</p>
@@ -238,10 +235,7 @@
             </div>
             <div class="box">
               <div class="img-cont">
-                <img
-                  src="https://images.unsplash.com/photo-1522968941782-e27ac665baa3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2xhc3MlMjBvZmZpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=2000&q=60"
-                  alt="office"
-                />
+                <img src="img/image-bg-2.png" alt="office" />
               </div>
               <div class="text">
                 <p>By <strong>Narcis Gusa</strong> 12/06/2022</p>
@@ -250,10 +244,7 @@
             </div>
             <div class="box">
               <div class="img-cont">
-                <img
-                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVpbGRpbmdzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=2000&q=60"
-                  alt="building"
-                />
+                <img src="img/image-bg-3.png" alt="building" />
               </div>
               <div class="text">
                 <p>By <strong>Narcis Gusa</strong> 12/06/2022</p>
@@ -314,84 +305,33 @@
           </p>
           <div class="say-cnt">
             <div class="say">
-              <div class="star">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-                consectetur!
-              </p>
-              <div class="designer">
-                <img
-                  src="https://images.unsplash.com/photo-1654684128827-743431765638?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=60"
-                  alt="designer"
-                />
-                <p>Designer <strong>Narcis Gusa</strong></p>
-              </div>
+              <img src="img/card-item-1.png" class="designer-1" />
             </div>
             <div class="say">
-              <div class="star">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-                consectetur!
-              </p>
-              <div class="designer">
-                <img
-                  src="https://images.unsplash.com/photo-1655212057957-54ec972fa493?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=60"
-                  alt="designer"
-                />
-                <p>Designer <strong>Narcis Gusa</strong></p>
-              </div>
+              <img src="img/card-item-2.png" class="designer-1" />
             </div>
             <div class="say">
-              <div class="star">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-                consectetur!
-              </p>
-              <div class="designer">
-                <img
-                  src="https://images.unsplash.com/photo-1655119373888-1bce2223555a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=60"
-                  alt="designer"
-                />
-                <p>Designer <strong>Narcis Gusa</strong></p>
-              </div>
+              <img src="img/card-item-3.png" class="designer-3" />
             </div>
           </div>
         </div>
         <div class="join">
           <div class="get-this">
-            <h4>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Molestiae, unde?
-            </h4>
+            <h4>Join 100 Compannies who boost their business with Product</h4>
             <button class="btn-get">Get This</button>
           </div>
           <div class="get-svg">
-            <img src="img/paper.svg" alt="paper" />
+            <img src="img/screen.png" alt="paper" />
           </div>
         </div>
       </div>
     </div>
     <footer class="footer">
       <div class="prd">
-        <h4>Product</h4>
+        <div class="prd-p">
+          <img src="img/P.png" />
+          <h4>Product</h4>
+        </div>
         <div class="socials">
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-facebook-f"></i>
