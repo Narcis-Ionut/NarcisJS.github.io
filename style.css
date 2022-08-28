@@ -21,9 +21,9 @@ body {
   justify-content: center;
   font-family: "Poppins", sans-serif;
   flex-direction: row;
-  height: 20%;
+  height: 30%;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
 }
 .p-header {
   display: flex;
@@ -110,10 +110,11 @@ body {
   background-color: #fff;
   border: none;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
-  padding: 5px;
+  padding: 10px;
   cursor: pointer;
+  border: 1px solid rgb(227, 197, 197);
 }
 .sign-in {
   display: flex;
@@ -121,20 +122,19 @@ body {
   width: 100%;
   border-radius: 12%;
   color: #000;
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
-  font-size: 12px;
   font-weight: bold;
   padding: 5px;
   cursor: pointer;
-  border: 1px solid rgb(0, 0, 0);
 }
+
 .header-list button:hover {
   transform: scale(1.2);
   transition: transform 0.3s ease;
 }
 
-.sign-out.active {
+.sign-up.active {
   background-color: #02897a;
   color: #fff;
 }
@@ -254,13 +254,15 @@ body {
 }
 .content-fotter ul a h4 {
   margin-bottom: 10px;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 22px;
+  font-weight: 600;
+  color: #22343d;
 }
 .content-fotter ul li p {
   font-size: 16px;
-  letter-spacing: 1px;
+  line-height: 26px;
   max-width: 75%;
+  color: #22343d;
 }
 .content-fotter ul li a i {
   display: flex;
@@ -352,8 +354,16 @@ body {
 .secondary-content1 p,
 .secondary-content2 p,
 .secondary-content3 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 2;
+}
+.cnt1-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.cnt1-title strong {
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .cnt1 {
@@ -435,6 +445,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #22343d;
+  font-weight: 500;
 }
 .ppl {
   display: flex;
@@ -453,10 +464,10 @@ body {
   padding: 20px;
   text-align: center;
 }
-.ppl.txt-1 {
-  width: 70%;
-  height: 60%;
-  color: #a39e9e;
+.txt-1 {
+  display: flex;
+  width: 60%;
+  height: 50%;
 }
 
 .person {
