@@ -7,11 +7,11 @@
 }
 
 body {
-  background-color: #fff;
   font-family: "Poppins", sans-serif;
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  background-color: #fff;
 }
 
 .header {
@@ -23,7 +23,7 @@ body {
   flex-direction: row;
   height: 20%;
   width: 100%;
-  margin: 10px;
+  padding: 10px;
 }
 .p-header {
   display: flex;
@@ -156,6 +156,7 @@ body {
 .content-primary {
   background-image: url(img/Bg.png);
   background-position: center center;
+  background-color: #fff;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -424,12 +425,16 @@ body {
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
+.thirdcnt-head h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
 .thirdcnt-head p {
   padding: 20px;
   width: 65%;
-  font-size: 10px;
-  letter-spacing: 1px;
-  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343d;
 }
 .ppl {
   display: flex;
@@ -448,16 +453,10 @@ body {
   padding: 20px;
   text-align: center;
 }
-.ppl-first-row p,
-.ppl-second-row p {
-  padding: 0;
-  background-image: url(img/Combined\ Shape.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 150px;
-  height: 50px;
-  border-radius: 15px;
+.ppl.txt-1 {
+  width: 70%;
+  height: 60%;
+  color: #a39e9e;
 }
 
 .person {
@@ -483,12 +482,7 @@ body {
   cursor: pointer;
   height: 30px;
   width: 100px;
-  background-color: #02897a;
-  color: #fff;
-  border-radius: 4px;
   border: none;
-  margin: 10px 0 5px 0;
-  box-shadow: 0 2px 0 2px rgba(0, 0, 0, 0.144);
 }
 
 .contact-btn:hover {
@@ -502,7 +496,16 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
-  margin-top: 50px;
+  margin-top: 80px;
+}
+.carousel h4 {
+  left: 0;
+  font-size: 34px;
+  font-weight: bold;
+}
+.carousel p {
+  line-height: 26px;
+  font-size: 16px;
 }
 
 .boxes-container {
@@ -679,8 +682,10 @@ body {
 .join {
   display: flex;
   flex-direction: row;
-  max-width: 70vw;
-  max-height: 40vh;
+  position: relative;
+  max-width: 60vw;
+  max-height: 50vh;
+  left: 25%;
   background-color: #02897a;
   border: none;
   border-radius: 20px;
@@ -939,5 +944,10 @@ body {
     flex-direction: column;
     max-width: 100%;
     max-height: 100%;
+  }
+  .ppl-first-row,
+  .ppl-second-row {
+    display: flex;
+    flex-direction: column;
   }
 }
