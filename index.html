@@ -24,27 +24,23 @@
         <i class="fa-solid fa-bars"></i>
       </div>
     </div>
-    <header class="header" id="header">
+    <div class="header" id="header">
       <div class="p-header">
         <img class="the-P" src="img/P.png" />
         <h4>Product</h4>
       </div>
-      <ul class="header-list">
-        <li><a href="#">Product</a></li>
-        <li><a href="#">Customers</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Resources</a></li>
-        <li>
-          <button class="sign-in" id="sign-in">Sign in</button>
-        </li>
-        <li>
-          <button class="sign-up active" id="sign-up">Sign up</button>
-        </li>
-        <li>
-          <a href="#"><i class="fa-regular fa-circle" id="dark"></i></a>
-        </li>
-      </ul>
-    </header>
+      <div class="header-list">
+        <p href="#">Product</p>
+        <p href="#">Customers</p>
+        <p href="#">Pricing</p>
+        <p href="#">Resources</p>
+      </div>
+      <div class="header-btns">
+        <button class="sign-in" id="sign-in">Sign in</button>
+        <button class="sign-up" id="sign-up">Sign up</button>
+        <img class="fa-circle" src="/img/fa-circle.png" />
+      </div>
+    </div>
     <div class="main" id="main">
       <div class="content-primary" id="content-primary">
         <div class="p-container">
@@ -55,8 +51,11 @@
               The most intuitive way to imagine your next user experience.
             </p>
             <div class="lnk">
-              <img src="img/button-getstarted.png" class="get-started active" />
-              <img src="img/button-watch.png" class="watch" />
+              <button class="get-started active">Get started</button>
+              <button class="watch">
+                <div class="triangle-watch"><img src="img/Triangle.png" /></div>
+                <div class="text-watch">Watch the Video</div>
+              </button>
             </div>
           </div>
           <div class="p2">
@@ -234,34 +233,31 @@
               <div class="img-cont">
                 <img src="img/image-bg-1.png" alt="laptop" />
               </div>
-              <div class="text">
-                <p>By <strong>Narcis Gusa</strong> 12/06/2022</p>
-                <h3>Increasing Prosperity With Positive Thinking</h3>
-              </div>
+              <p>By <strong>Narcis Gusa</strong> 12/06/2022</p>
+              <h3>Increasing Prosperity With Positive Thinking</h3>
             </div>
             <div class="box">
               <div class="img-cont">
                 <img src="img/image-bg-2.png" alt="office" />
               </div>
-              <div class="text">
-                <p>By <strong>Narcis Gusa</strong> 12/06/2022</p>
-                <h3>Motivation is The First Step To Success</h3>
-              </div>
+              <p>By <strong>Narcis Gusa</strong> 12/06/2022</p>
+              <h3 class="mtv">Motivation is The First Step To Success</h3>
             </div>
             <div class="box">
               <div class="img-cont">
                 <img src="img/image-bg-3.png" alt="building" />
               </div>
-              <div class="text">
-                <p>By <strong>Narcis Gusa</strong> 12/06/2022</p>
-                <h3>Success Steps For Your Personal Or Bussines</h3>
-              </div>
+
+              <p>By <strong>Narcis Gusa</strong> 12/06/2022</p>
+              <h3>Success Steps For Your Personal Or Bussines</h3>
             </div>
           </div>
-          <div class="my-circle">
-            <div></div>
-            <div></div>
-            <div></div>
+          <div class="circle-container">
+            <div class="my-circle">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
           </div>
         </div>
         <div class="price-table">
@@ -271,7 +267,10 @@
             <div class="free">
               <h2>Free</h2>
               <p class="descr">Brief price description</p>
-              <p><strong>0 $</strong> per / month</p>
+              <p class="text-sign">
+                <strong class="number-sign">0</strong
+                ><strong class="dollar-sign">$</strong> per / month
+              </p>
               <ul>
                 <li>Only 2 Operators</li>
                 <li>Notifications</li>
@@ -282,7 +281,10 @@
             <div class="standard">
               <h2>Standard</h2>
               <p class="descr">Brief price description</p>
-              <p><strong>5 $</strong> per / month</p>
+              <p class="text-sign">
+                <strong class="number-sign">5</strong
+                ><strong class="dollar-sign">$</strong> per / month
+              </p>
               <ul>
                 <li>5+ Operators</li>
                 <li>Notifications</li>
@@ -293,7 +295,10 @@
             <div class="premium">
               <h2>Premium</h2>
               <p class="descr">Brief price description</p>
-              <p><strong>10 $</strong> per / month</p>
+              <p class="text-sign">
+                <strong class="number-sign">10</strong
+                ><strong class="dollar-sign">$</strong> per / month
+              </p>
               <ul>
                 <li>10+ Operators</li>
                 <li>Notifications</li>
@@ -311,23 +316,64 @@
           </p>
           <div class="say-cnt">
             <div class="say">
-              <img src="img/card-item-1.png" class="designer-1" />
+              <div class="say-1">
+                <img src="img/Group 204.png" class="designer-1" />
+              </div>
+              <p>
+                Product helps you see how many more days you need to work to
+                reach your financial goal.
+              </p>
+              <div class="say-2">
+                <img src="img/Ellipse 2.png" />
+                <div class="say-texts">
+                  <p class="say-p1">Narcis</p>
+                  <p class="say-p2">Designer</p>
+                </div>
+              </div>
             </div>
             <div class="say">
-              <img src="img/card-item-2.png" class="designer-1" />
+              <div class="say-1">
+                <img src="img/Group 204.png" class="designer-1" />
+              </div>
+              <p>
+                Product helps you see how many more days you need to work to
+                reach your financial goal.
+              </p>
+              <div class="say-2">
+                <img src="img/Ellipse 3.png" />
+                <div class="say-texts">
+                  <p class="say-p1">Narcis</p>
+                  <p class="say-p2">Designer</p>
+                </div>
+              </div>
             </div>
             <div class="say">
-              <img src="img/card-item-3.png" class="designer-3" />
+              <div class="say-1">
+                <img src="img/Group 204.png" class="designer-1" />
+              </div>
+              <p>
+                Product helps you see how many more days you need to work to
+                reach your financial goal.
+              </p>
+              <div class="say-2">
+                <img src="img/Ellipse 4.png" />
+                <div class="say-texts">
+                  <p class="say-p1">Narcis</p>
+                  <p class="say-p2">Designer</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="join">
-          <div class="get-this">
-            <h4>Join 100 Compannies who boost their business with Product</h4>
-            <button class="btn-get">Get This</button>
-          </div>
-          <div class="get-svg">
-            <img src="img/screen.png" alt="paper" />
+        <div class="join-container">
+          <div class="join">
+            <div class="get-this">
+              <h4>Join 100 Compannies who boost their business with Product</h4>
+              <button class="btn-get">Get This</button>
+            </div>
+            <div class="get-svg">
+              <div class="svg-container"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -335,7 +381,7 @@
     <footer class="footer">
       <div class="prd">
         <div class="prd-p">
-          <img src="img/P.png" />
+          <img class="prd-img" src="img/P.png" />
           <h4>Product</h4>
         </div>
         <div class="socials">
@@ -363,7 +409,7 @@
         </ul>
       </div>
       <div class="inp">
-        <p><strong>knowing you're always on the best energy deal</strong></p>
+        <p>knowing you're always on the best energy deal</p>
         <label for="input">
           <input type="text" />
         </label>
